@@ -24,8 +24,7 @@ const showChangelogModal = ref(false);
 // 获取应用版本
 const getAppVersion = () => {
   // 使用默认值
-  let savedVersion = null
-    appVersion.value = savedVersion;
+  return appVersion.value 
 };
 
 // 切换侧边栏位置
