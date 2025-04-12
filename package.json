@@ -1,0 +1,30 @@
+{
+  "name": "font-viewer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "desktop": "tauri dev",
+    "build:desktop": "tauri build",
+    "clean-build": "rimraf dist && npm run build",
+    "version:patch": "node scripts/version-release.mjs patch",
+    "version:minor": "node scripts/version-release.mjs minor",
+    "version:major": "node scripts/version-release.mjs major",
+    "version:reset": "node scripts/reset-version.mjs"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.5.0",
+    "vue": "^3.3.4",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.5.0",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "terser": "^5.39.0",
+    "vite": "^4.4.5"
+  }
+}
