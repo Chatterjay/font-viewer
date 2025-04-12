@@ -21,7 +21,7 @@ const props = defineProps({
 const emit = defineEmits(["toggle-favorite", "toggle-commercial"]);
 
 // 预览文本
-const previewText = ref("你好，世界。汉字测试 AaBbCc 0123456789");
+const previewText = ref("你好，世界。汉字测试 AaBbCc 0123456789 こんにちは");
 // 自定义文本
 const customText = ref("");
 // 是否使用默认文本
