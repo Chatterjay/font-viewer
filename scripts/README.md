@@ -89,10 +89,6 @@ const logContent = await updatelog('v1.0.0', 'updater');
 
 ## 🚀 发布与更新脚本
 
-### release.mjs
-
-**功能**: 旧版的发布脚本（已被 version-release.mjs 替代）
-
 ### updater.mjs
 
 **功能**: 生成应用自动更新所需的 JSON 文件
